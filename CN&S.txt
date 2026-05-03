@@ -1,0 +1,114 @@
+Cryptography = Secret writing
+Cryptography means hiding information so that only the correct person can read it.
+“crypt” means “hidden” and graphy means “writing”
+Plaintext = normal message that anyone can read.
+Ciphertext = message that is not readable without a key.
+Encryption = converting readable data (plaintext) into secret code (ciphertext).
+Decryption = converting ciphertext back to original plaintext.
+
+Cryptanalysis = Trying to hack or break the secret code without using of key.
+
+Cryptography                        |    Cryptanalysis
+----------------------------------------------------------------------------
+Protects data                       |   Breaks security
+
+Converts plaintext → ciphertext     |   Converts ciphertext → plaintext (without key)
+
+Used for security                   |  Used for attacking/testing security
+
+Done by authorized user             |  Done by attacker or analyst
+
+
+Symmetric                   Asymmetric
+----------------------------------------------------------------------------
+One key                     Two keys
+
+Fast                        Slow
+
+Less secure                 More secure
+
+Key sharing needed          No need to share private key
+-----------------------------------------------------------------------------------------------------------------
+Symmetric Cryptography (Mechanism)
+
+1. Plaintext → Encrypt using same key
+2. Ciphertext sent
+3. Receiver → Decrypt using same key
+
+----------------------------------------------------------------------------
+
+Asymmetric Cryptography (Mechanism)
+
+1. Sender → Encrypt using receiver’s public key
+2. Ciphertext sent
+3. Receiver → Decrypt using private key
+
+-----------------------------------------------------------------------------------------------------------
+DSS is a standard used to create digital signatures to verify the authenticity and integrity of a message.
+Non-repudiation = Sender cannot deny sending the message
+DSS ensures non-repudiation by using the sender’s private key to create a digital signature.
+
+Electronic Mail Security is used to protect emails from unauthorized access, modification, and misuse.
+MIME (Multipurpose Internet Mail Extensions)
+    -> A standard that allows email to send different types of data, not just text.
+
+How MIME contributes to secure messaging
+
+1. Encodes data safely
+    * Converts binary data into text format
+    * Prevents corruption during transmission
+2. Supports attachments securely
+    * Allows sending files in structured format
+3. Works with security protocols
+    * Used with encryption & digital signatures
+4. Maintains message structure
+    * Ensures correct delivery and interpretation
+
+
+SSL (Secure Socket Layer)
+SSL is a protocol used to secure communication between a browser and a server.
+
+Roles of SSL
+- Secure communication
+- encryption
+- authentication
+- data integrity
+
+How it works?
+- connect browser to server
+- send SSL certificate
+- verify the SSL certificate
+- session key is created
+- data is encrypted and transfer securely
+
+Secure Electronic Transaction (SET)
+
+SET is a protocol used to secure online credit card transactions.
+It ensures that payment information is safe and confidential.
+
+How does it protect?
+- Encryption --> plainterxt -> ciphertext
+- digital certificates --> SSL
+- Digital Signature --> DSS
+- Privacy Protection --> only bank has its access
+
+Network security = keeping network and data safe from hackers.
+
+Common Threats in Office Network
+- Virus
+- hacking (unauthorized access)
+- fake emails 
+- Data Theft
+- Weak Passwords
+
+Encryption (Sender side)                                    Decryption (Receiver side)
+-------------------------------------------------------------------------------
+Converts plaintext → ciphertext (secret code)               Converts ciphertext → plaintext (original message)
+
+someone read but they cannot understand it                  Only authorized user with correct key can read it          
+
+How it ensures confidentiality
+
+1. Data is hidden during transmission/transfer
+2. Even if hacker gets the data → sees only unreadable data
+3. Only receiver with key can decode message
