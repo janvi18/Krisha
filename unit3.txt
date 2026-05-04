@@ -1,0 +1,141 @@
+Router is a network device used to connect multiple networks and forward data from one network to another.
+
+Adaptive Router                     Non-Adaptive Router
+----------------------------------------------------------------
+Dynamic routing             |      Static routing
+
+Changes path                |      Fixed path
+
+Uses network condition      |      No condition check
+
+More efficient              |      Less efficient
+
+Adaptive = Smart (changes path)
+Non-Adaptive = Rigid (fixed path)
+
+A bridge is a network device used to connect two LANs and filter data.
+
+Functions of Bridge
+
+- Connects two or more networks
+- Filters traffic based on MAC address
+- Reduces network traffic
+- Improves network performance
+
+Transparent Bridge                  Spanning Tree Bridge (STP)
+--------------------------------------------------------------------
+Simple working              |        Complex (uses STP)
+                            
+Learns MAC addresses        |        Prevents(STOP) loops(Repeat)
+                            
+No loop control             |        Loop-free network
+                            
+Basic forwarding            |        Controls multiple paths
+
+
+Hub = device that connects many computers and sends data to all
+
+
+Passive Hub                     Active Hub                      Intelligent Hub
+-----------------------------------------------------------------------------------
+No signal boost                 Boosts signal                   Boost + control
+
+No processing                   Regenerates data                Manages network
+
+Simple                          Moderate                        Advanced
+
+Cheap                           Costly                          Most costly
+
+Switch is a device that connects multiple devices in a LAN and sends data only to the correct device.
+
+Working of Switch
+
+1. Receives data (frame)
+2. Checks MAC address
+3. Finds destination device
+4. Sends data only to that device
+
+Types of Switches
+
+1. Simple Switch (Basic)
+
+* Connects devices
+* Uses MAC address to send data
+* No advanced features
+
+
+2. Folded Switch
+
+Used in large networks
+* Combines multiple switches into one
+* Improves performance
+* Reduces network complexity
+
+3. Cross-bar Switch
+
+Uses a matrix (grid) structure
+* Direct connection between input & output
+* Allows multiple communications at same time
+* High speed & efficient
+
+Repeater                    Gateway
+--------------------------------------------------------
+Boosts signal              Connects different networks
+
+Same network                Different networks
+
+No protocol change          Converts protocols
+
+
+
+Asynchronous                            Synchronous
+---------------------------------------------------------------
+Character by character           |     Block of data
+
+Uses start/stop bits             |     No start/stop bits
+
+No synchronization               |     Requires synchronization
+
+Slow                             |     Fast
+
+
+Modem = Modulator + Demodulator
+Modem = device that helps computer communicate over internet
+
+Xmodem                          Ymodem                              Zmodem
+----------------------------------------------------------------------------------------
+Slow                            Faster                              Fastest
+
+128 bytes                       1 KB blocks                         Continuous
+
+Basic                           Improved                            Advanced
+
+
+Character-Oriented                                      Bit-Oriented
+------------------------------------------------------------------------------------
+Works with characters                                   Works with bits
+
+Uses control characters                                 Uses bit patterns
+
+Less efficient                                          More efficient
+
+Simpler                                                 More complex
+
+
+Hub                                                 Switch
+--------------------------------------------------------------------------------------
+Broadcasts to all                                   Sends to specific device
+
+No address check                                    Uses MAC address
+
+Slow                                                Fast
+
+Less secure                                         More secure
+
+Layer 1                                             Layer 2
+
+A hub is a Layer 1 device because it only forwards signals without processing,
+a switch is a Layer 2 device because it uses MAC addresses to make forwarding decisions.
+
+Hub = no brain (Layer 1)
+Switch = smart (Layer 2)
